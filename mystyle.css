@@ -1,0 +1,48 @@
+Body{
+Background-color: lightblue;
+}
+
+
+body {
+ height: 200px;
+ margin: 0;
+ }
+.header {
+ font-size: 80px;
+font-family: Arial Black;
+ color: #FFFFFF;
+ position: fixed;
+ height: 90px;
+ width: 100%;
+ text-align:center;
+}
+
+p {
+font-family: Arial;
+font-size: 17px;
+}
+
+.content {
+  min-height: calc(100vh - 70px);
+}
+.footer {
+  height: 50px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
